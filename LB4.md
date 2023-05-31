@@ -15,7 +15,7 @@
 - Клонируем репозиторий 3 лабораторной работы в репозиторий 4        
   git clone -  клонирование репозитория      
   git remote remove origin - удаление копиии удаленного репозитория       
-  git remote add origin      
+  git remote add origin - добавление в удалённый репозиторий
   ![](https://github.com/sippyuy/timp4/blob/main/screens/1.png)                               
   ![](https://github.com/sippyuy/timp4/blob/main/screens/2.png)                           
   ![](https://github.com/sippyuy/timp4/blob/main/screens/3.png)                        
