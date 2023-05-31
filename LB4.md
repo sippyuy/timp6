@@ -27,8 +27,10 @@
   ![](https://github.com/sippyuy/timp4/blob/main/screens/6.png)                      
   ![](https://github.com/sippyuy/timp4/blob/main/screens/7.png)                         
   ![](https://github.com/sippyuy/timp4/blob/main/screens/8.png)                     
-- Создаём файл yml с кодом сборки на Linux                                                   
-  ![](https://github.com/sippyuy/timp4/blob/main/screens/9.png)                          
+- Создаём файл yml с кодом сборки на Linux                              
+  cat - утилита выводящая последовательно указанные файлы          
+  nano - текстовый редактор Linux            
+  ![](https://github.com/sippyuy/timp4/blob/main/screens/9.png)                                    
   ![](https://github.com/sippyuy/timp4/blob/main/screens/10.png)                            
   ![](https://github.com/sippyuy/timp4/blob/main/screens/11.png)                     
 - Создаём токен с правами доступа workflow   
