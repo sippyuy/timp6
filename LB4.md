@@ -20,10 +20,10 @@
   ![](https://github.com/sippyuy/timp4/blob/main/screens/2.png)                           
   ![](https://github.com/sippyuy/timp4/blob/main/screens/3.png)                        
   ![](https://github.com/sippyuy/timp4/blob/main/screens/4.png)                    
-- Создаём необходимые директории для работы с Github Actions
-  mkdir - создать директорию
-  cd - переместиться в указанную директорию
-  ![](https://github.com/sippyuy/timp4/blob/main/screens/5.png)                             
+- Создаём необходимые директории для работы с Github Actions                
+  mkdir - создать директорию                         
+  cd - переместиться в указанную директорию                              
+  ![](https://github.com/sippyuy/timp4/blob/main/screens/5.png)                                             
   ![](https://github.com/sippyuy/timp4/blob/main/screens/6.png)                      
   ![](https://github.com/sippyuy/timp4/blob/main/screens/7.png)                         
   ![](https://github.com/sippyuy/timp4/blob/main/screens/8.png)                     
