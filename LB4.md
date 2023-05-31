@@ -13,10 +13,10 @@
 В лабораторной работе используем Github Actions
 ## Ход работы
 - Клонируем репозиторий 3 лабораторной работы в репозиторий 4
-  ![](https://github.com/sippyuy/timp4/blob/main/screens/1.png) 
-  ![](https://github.com/sippyuy/timp4/blob/main/screens/2.png) 
-  ![](https://github.com/sippyuy/timp4/blob/main/screens/3.png) 
-  ![](https://github.com/sippyuy/timp4/blob/main/screens/4.png) 
+  ![](https://github.com/sippyuy/timp4/blob/main/screens/1.png)                               
+  ![](https://github.com/sippyuy/timp4/blob/main/screens/2.png)                           
+  ![](https://github.com/sippyuy/timp4/blob/main/screens/3.png)                        
+  ![](https://github.com/sippyuy/timp4/blob/main/screens/4.png)                    
 - Создаём необходимые директории для работы с Github Actions
   ![](https://github.com/sippyuy/timp4/blob/main/screens/5.png)
   ![](https://github.com/sippyuy/timp4/blob/main/screens/6.png)
