@@ -13,5 +13,5 @@
 В лабораторной работе используем Github Actions
 ## Ход работы
 - Клонируем репозиторий 3 лабораторной работы в репозиторий 4
-  ![]("https://github.com/sippyuy/timp4/blob/main/screens/1.png")
+  [](https://github.com/sippyuy/timp4/blob/main/screens/1.png)
 
