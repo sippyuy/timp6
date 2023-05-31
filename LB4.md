@@ -13,9 +13,9 @@
 В лабораторной работе используем Github Actions
 ## Ход работы
 - Клонируем репозиторий 3 лабораторной работы в репозиторий 4
-  git clone -  клонирование репозитория
-  git remote remove origin - удаление копиии удаленного репозитория
-  git remote add origin
+  git clone -  клонирование репозитория      
+  git remote remove origin - удаление копиии удаленного репозитория       
+  git remote add origin      
   ![](https://github.com/sippyuy/timp4/blob/main/screens/1.png)                               
   ![](https://github.com/sippyuy/timp4/blob/main/screens/2.png)                           
   ![](https://github.com/sippyuy/timp4/blob/main/screens/3.png)                        
