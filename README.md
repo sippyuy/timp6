@@ -1,11 +1,13 @@
-# lab-06
+# Лаблраторная работа №6
 После того, как вы настроили взаимодействие с системой непрерывной интеграции, обеспечив автоматическую сборку и тестирование ваших изменений, стоит задуматься о создание пакетов для измениний, которые помечаются тэгами (см. вкладку releases). Пакет должен содержать приложение solver из предыдущего задания
 
 # Task 1
 
-We create `CMakeLists.txt` for `formatter_ex_lib`, `formatter_lib` and `solver_application` respectively
+Создадим CMakeLists.txt для formatter_ex_lib, formatter_lib и также solver_application
 
-`CMakeLists.txt` contents for `formatter_ex_lib`:
+CMakeLists.txt для formatter_ex_lib:
+
+![]()
 ```
 cmake_minimum_required(VERSION 3.4)
 
