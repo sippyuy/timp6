@@ -1,4 +1,4 @@
-# Лаблраторная работа №6
+# Лабораторная работа №6
 После того, как вы настроили взаимодействие с системой непрерывной интеграции, обеспечив автоматическую сборку и тестирование ваших изменений, стоит задуматься о создание пакетов для измениний, которые помечаются тэгами (см. вкладку releases). Пакет должен содержать приложение solver из предыдущего задания
 
 # Task 1
@@ -7,7 +7,7 @@
 
 CMakeLists.txt для formatter_ex_lib:
 
-![]()
+![](https://github.com/sippyuy/timp6/blob/main/screens/1.png)
 ```
 cmake_minimum_required(VERSION 3.4)
 
@@ -25,7 +25,9 @@ target_include_directories(formatter_ex_lib PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/.
 target_link_libraries(formatter_ex_lib formatter_lib)
 ```
 
-`CMakeLists.txt` contents for `formatter_lib`:
+CMakeLists.txt для formatter_lib:
+
+![](https://github.com/sippyuy/timp6/blob/main/screens/2.png)
 ```
 cmake_minimum_required(VERSION 3.4)
 
@@ -37,7 +39,9 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 add_library(formatter_lib STATIC ${CMAKE_CURRENT_SOURCE_DIR}/formatter.cpp ${CMAKE_CURRENT_SOURCE_DIR}/formatter.h)
 ```
 
-`CMakeLists.txt` contents for `solver_application`:
+CMakeLists.txt для solver_application:
+
+![](https://github.com/sippyuy/timp6/blob/main/screens/3.png)
 ```
 cmake_minimum_required(VERSION 3.4)
 
@@ -56,9 +60,12 @@ target_include_directories(formatter_ex_lib PUBLIC /../formatter_lib /../formatt
 target_link_libraries(solver formatter_ex_lib formatter_lib solver_lib)
 ```
 
-Now let's create `CMakeLists.txt` to link all directories
+Теперь создадим CMakeLists.txt для линковки всех директорий
 
-`CMakeLists.txt` contents:
+CMakeLists.txt:
+
+![](https://github.com/sippyuy/timp6/blob/main/screens/4.png)
+
 ```
 cmake_minimum_required(VERSION 3.4)
 
@@ -82,13 +89,11 @@ install(TARGETS solver
 
 include(CPackConfig.cmake)
 ```
-![1](https://github.com/Vlad1kavkaz/lab06/assets/112761204/28568641-2bdb-4428-b481-e8ab53d11bc6)
 
+Создадим файл CPackConfig.cmake (утилита пакетирования)
+CPackConfig.cmake:
 
-
-Let's create `CPackConfig.cmake` (packaging tool)
-
-`CPackConfig.cmake` contents:
+![](https://github.com/sippyuy/timp6/blob/main/screens/5.png)
 ```
 include(InstallRequiredSystemLibraries)
 
@@ -116,13 +121,14 @@ set(CPACK_GENERATOR "DEB")
 
 include(CPack)
 ```
-![2](https://github.com/Vlad1kavkaz/lab06/assets/112761204/319c07d1-7bf4-4c80-9871-625c610a9e2c)
 
-Create LICENSE and DESCRIPTION for working our programm
+Создадим лицензию и описание для работы нашей программы
 
-We create two scripts `Action.yml` and `Release.yml` to package and run the program on the GitHub virtual machine
+Создаём два скрипта Action.yml и Release.yml чтобы запакетировать и запустить программу
 
-`Action.yml` contents:
+Action.yml:
+
+![](https://github.com/sippyuy/timp6/blob/main/screens/6.png)
 ```
 name: CMake
 
@@ -156,7 +162,9 @@ $ cat >> Release.yml << EOF
 $ nano Release.yml
 ```
 
-`Release.yml` contents:
+Release.yml:
+
+![](https://github.com/sippyuy/timp6/blob/main/screens/7.png)
 ```
 name: CMake
 
@@ -197,14 +205,3 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GH_PAT }}
         allowUpdates: true
 ```
-![3](https://github.com/Vlad1kavkaz/lab06/assets/112761204/b36da1a9-cc8c-4438-95ea-ae98f72a7d29)
-![4](https://github.com/Vlad1kavkaz/lab06/assets/112761204/04af6c6c-69db-4c10-b5ba-a7e6d54d3c28)
-![5](https://github.com/Vlad1kavkaz/lab06/assets/112761204/224c17e2-b6a4-4dcd-b041-dba26c091e04)
-
-
-After we create a release `v1.0.0.0`
-
-
-
-
-
