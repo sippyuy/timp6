@@ -26,7 +26,7 @@ CMakeLists.txt:
 Создадим файл CPackConfig.cmake (утилита пакетирования)
 CPackConfig.cmake:
 
-![](https://github.com/sippyuy/timp6/blob/main/screens/5.png)
+![](https://github.com/sippyuy/timp6/blob/main/screens/extra.png)
 
 Создадим лицензию и описание для работы нашей программы
 
